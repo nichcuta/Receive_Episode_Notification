@@ -46,7 +46,7 @@ try:
     receive_episodes("tt0944947")   # Game of Thrones
 
     if to_download != "":
-        # send_proton_email("New downloded Episode(s)!", to_download)    # One can use the proton-mail script provided in another rep to make it sent an email once new EP's are out!
+        # send_proton_email('exampleEmail@gmail.com', "New downloded Episode(s)!", to_download)    # One can use the proton-mail script provided in another rep to make it sent an email once new EP's are out!
         print("New EP's! " + to_download)
     else:
         print("No New Episodes Today!")
